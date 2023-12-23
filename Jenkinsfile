@@ -19,7 +19,7 @@ pipeline {
             steps {
                 echo 'verifying the terrform version...'
                 sh 'terraform --version'
-               
+                sh 'ls'
             }
         }
         
